@@ -69,12 +69,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!", modifier = modifier
-    )
-}
+
 
 @Preview(showBackground = true)
 @Composable
@@ -112,7 +107,7 @@ fun UpView(modifier: Modifier = Modifier) {
         Text(
             text = "إعدادات أوقات الصلاة",
             fontSize = 20.sp,
-            modifier = Modifier.fillMaxWidth(0.7f),
+            modifier = Modifier.fillMaxWidth(0.8f),
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily(Font(R.font.cairobold))
         )
