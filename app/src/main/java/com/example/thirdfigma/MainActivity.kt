@@ -272,25 +272,6 @@ fun DownView(modifier: Modifier = Modifier) {
                 fontSize = 14.sp
             )
 
-//            Button(
-//                onClick = { isSelected = !isSelected }, Modifier.padding(top = 12.dp)
-//                    .background(color = Color.White)
-//                    .border(2.dp, color = colorResource(R.color.Asfar), shape = RoundedCornerShape(15.dp))
-//                , colors = ButtonColors(
-//                    containerColor =TargetColor,
-//                    contentColor = Color.Black,
-//                    disabledContainerColor = Color.Black,
-//                    disabledContentColor = Color.Black
-//                )
-//            ) {
-//                if (isSelected) {
-//                    Text(text = "⎷",
-//                        fontWeight = FontWeight.ExtraBold,
-//                        fontSize = 25.sp)
-//                } else {
-//                    Text(text = "")
-//                }
-//            }
         }
         Text(
             text = "اختيار القاعدة :",
