@@ -222,7 +222,7 @@ fun MiddleView(modifier: Modifier = Modifier) {
     }
 
 }
-
+//2
 @Composable
 fun DownView(modifier: Modifier = Modifier) {
     var isSelected by remember { mutableStateOf(false) }
