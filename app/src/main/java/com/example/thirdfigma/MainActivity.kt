@@ -331,7 +331,6 @@ fun AllViews(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
         Column(modifier = Modifier.fillMaxSize()) {
-
             MainView()
             MiddleView()
             DownView()
